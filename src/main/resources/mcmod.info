@@ -1,0 +1,17 @@
+[
+{
+  "modid": "charmsoverflow",
+  "name": "Charms Overflow",
+  "description": "A mod filled with random charms that can be equipped and combined",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Mistyk__"],
+  "credits": "BlockBench",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": ["baubles"],
+  "requiredMods": ["baubles"]
+}
+]

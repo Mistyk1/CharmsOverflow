@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "charmsoverflow:block/charm_table_side",
+    "down": "charmsoverflow:block/charm_table_bottom",
+    "up": "charmsoverflow:block/charm_table",
+    "north": "charmsoverflow:block/charm_table_side",
+    "east": "charmsoverflow:block/charm_table_side",
+    "south": "charmsoverflow:block/charm_table_side",
+    "west": "charmsoverflow:block/charm_table_side"
+  }
+}

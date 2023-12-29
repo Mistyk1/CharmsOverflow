@@ -1,0 +1,25 @@
+#PARSE_ESCAPES
+tile.charm_table.name=Table d'Amulette
+tile.advanced_charm_table.name=Table d'Amulette Avancée
+tile.charm_fusion_table.name=Table de Fusion d'Amulette
+
+container.charm_table=Table d'Amulette
+
+itemGroup.charmsOverflow.charms=Charms Overflow - Amulettes
+itemGroup.charmsOverflow.other=Charms Overflow - Autre
+
+item.charm_empty.name=Amulette Vide
+item.charm_leather.name=Amulette de Cuir
+item.charm_chainmail.name=Amulette de Chaine
+item.charm_iron.name=Amulette de Fer
+item.charm_gold.name=Amulette d'or
+item.charm_diamond.name=Amulette de Diamant
+item.charm_defense.name=Amulette de Défense
+
+tooltip.base=Appuyez sur Shift pour voir les effets de l'Amulette
+tooltip.leather=§9- Donne 4 d'armure
+tooltip.chainmail=§9- Donne 6 d'armure \n- A une chance de renvoyer une partie des dégâts à l'attaquant
+tooltip.iron=§9- Donne 12 d'armume \n- A une chance de bloquer une partie des dégâts reçus
+tooltip.gold=§9- Donne 6 d'armure \n- Pour chaque point d'expérience gagné, a une chance de réparer l'outil en main
+tooltip.diamond=§9- Donne 16 d'armure \n- Donne Protection I
+tooltip.defense=§9- Donne 20 d'armure \n- A une chance de renvoyer une partie des dégâts à l'attaquant \n- A une chance de bloquer une partie des dégâts reçus \n- Pour chaque point d'expérience gagné, a une chance de réparer l'outil en main \n- Donne Protection I \n- Annule 10% des dégâts reçus

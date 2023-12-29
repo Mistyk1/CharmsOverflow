@@ -1,0 +1,25 @@
+#PARSE_ESCAPES
+tile.charm_table.name=Charm Table
+tile.advanced_charm_table.name=Advanced Charm Table
+tile.charm_fusion_table.name=Charm Fusion Table
+
+container.charm_table=Charm Table
+
+itemGroup.charmsOverflow.charms=Charms Overflow - Charms
+itemGroup.charmsOverflow.other=Charms Overflow - Other
+
+item.charm_empty.name=Empty Charm
+item.charm_leather.name=Leather Charm
+item.charm_chainmail.name=Chainmail Charm
+item.charm_iron.name=Iron Charm
+item.charm_gold.name=Gold Charm
+item.charm_diamond.name=Diamond Charm
+item.charm_defense.name=Defense Charm
+
+tooltip.base=Press shift for charm effects
+tooltip.leather=§9- Gives 4 armor
+tooltip.chainmail=§9- Gives 6 armor \n- Has a chance to send back a portion of damage dealt to the attacker
+tooltip.iron=§9- Gives 12 armor \n- Has a chance to block a portion of damage received
+tooltip.gold=§9- Gives 6 armor \n- For each experience point gained, has a chance of repairing the handled tool
+tooltip.diamond=§9- Gives 16 armor \n- Gives Protection I
+tooltip.defense=§9- Gives 20 armor \n- Has a chance to send back a portion of damage dealt to the attacker \n- Has a chance to block a portion of damage received \n- For each experience point gained, has a chance of repairing the handled tool \n- Gives Protection I \n- Negates 10% of damage received
