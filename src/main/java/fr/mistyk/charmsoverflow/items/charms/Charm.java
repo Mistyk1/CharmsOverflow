@@ -36,7 +36,7 @@ public abstract class Charm extends Item implements IBauble, IHasModel {
         if (GuiScreen.isShiftKeyDown()){
             tooltip.add(new TextComponentTranslation("tooltip." + getUnlocalizedName().substring(11)).getUnformattedComponentText());
         } else {
-            tooltip.add(new TextComponentTranslation("tooltip.base").getUnformattedComponentText());
+            tooltip.add(new TextComponentTranslation("tooltip.base").getFormattedText());
         }
     }
 
