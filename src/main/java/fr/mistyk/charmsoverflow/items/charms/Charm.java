@@ -9,6 +9,7 @@ import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.util.text.translation.I18n;
 import net.minecraft.world.World;
 
@@ -33,9 +34,9 @@ public abstract class Charm extends Item implements IBauble, IHasModel {
     {
         super.addInformation(stack, worldIn, tooltip, flagIn);
         if (GuiScreen.isShiftKeyDown()){
-            tooltip.add(I18n.translateToLocal("tooltip." + getUnlocalizedName().substring(11)));
+            tooltip.add(new TextComponentTranslation("tooltip." + getUnlocalizedName().substring(11)).getUnformattedComponentText());
         } else {
-            tooltip.add(I18n.translateToLocal("tooltip.base"));
+            tooltip.add(new TextComponentTranslation("tooltip.base").getUnformattedComponentText());
         }
     }
 
